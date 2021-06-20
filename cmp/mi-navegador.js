@@ -34,10 +34,12 @@ class MiNavegador extends HTMLElement {
       if (roles.has("Administrador")) {
         html += 
           `<li>
-            <a href="sucursales.html">Sucursales</a>
+            <a href=
+              "sucursales.html">Sucursales (info)</a>
           </li>
           <li>
-            <a href="usuarios.html">Usuarios</a>
+            <a href=
+              "usuarios.html">Usuarios</a>
           </li>`;
       }
       this.ul.innerHTML += html;
