@@ -35,7 +35,7 @@ class MiNavegador extends HTMLElement {
         "Administrador")) {
         html += 
           `<li>
-            <a href="pasatiempos.html">Pasatiempos</a>
+            <a href="sucursales.html">Pasatiempos</a>
           </li>
           <li>
             <a href="usuarios.html">Usuarios</a>
