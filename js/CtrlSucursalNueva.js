@@ -5,7 +5,7 @@ import {
   getString, muestraError
 } from "../lib/util.js";
 import {
-  muestraPasatiempos
+  muestraSucursales
 } from "./navegacion.js";
 import {
   tieneRol
@@ -31,7 +31,7 @@ async function guarda(evt) {
       info
     };
     await daoSucursal.add(modelo);
-    muestraPasatiempos();
+    muestraSucursales();
   } catch (e) {
     muestraError(e);
   }
