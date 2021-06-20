@@ -31,11 +31,10 @@ class MiNavegador extends HTMLElement {
               "chat.html">Chat</a>
           </li>`;
       }
-      if (roles.has(
-        "Administrador")) {
+      if (roles.has("Administrador")) {
         html += 
           `<li>
-            <a href="sucursales.html">Pasatiempos</a>
+            <a href="sucursales.html">Sucursales</a>
           </li>
           <li>
             <a href="usuarios.html">Usuarios</a>
