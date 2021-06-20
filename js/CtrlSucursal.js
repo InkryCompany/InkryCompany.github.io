@@ -29,7 +29,7 @@ async function busca() {
     const doc = await daoSucursal.doc(id).get();
     if (doc.exists) {
       const data = doc.data();
-      forma.nombre.value = data.nombre || "";
+      forma.info.value = data.info || "";
       forma.addEventListener("submit", guarda);
       forma.eliminar.addEventListener("click", elimina);
     } else {
