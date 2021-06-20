@@ -41,10 +41,10 @@ function htmlFila(doc) {
   const info = cod(data.info);
   const parámetros = new URLSearchParams();
   parámetros.append("id", doc.id);
-  return ( /* html */
+  return ( 
     `<li>
       <a class="fila" href=
-  "sucursales.html?${parámetros}">
+        "sucursales.html ? ${parámetros}">
         <strong class="primario">
           ${info}
         </strong>
